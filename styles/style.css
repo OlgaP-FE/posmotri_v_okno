@@ -90,7 +90,7 @@ ol {
 
 .content__video-card {
   display: flex;
-  align-items: start;
+  justify-content: space-between;
 }
 
 .content__video-card-thumbnail {
@@ -149,8 +149,6 @@ ol {
   font-weight: 700;
   font-size: 30px;
   text-transform: uppercase;
-  hyphens: auto;
-  margin-bottom: 6px;
 }
 
 /* content */
@@ -177,8 +175,7 @@ ol {
 
 .search-form {
   display: flex;
-  justify-content: space-between;
-  align-items: end;
+  align-items: center;
   gap: 38px;
 }
 
@@ -188,7 +185,6 @@ ol {
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 5px;
-  line-height: normal;
 }
 
 .search-form__label {
@@ -244,8 +240,8 @@ ol {
 
 .search-form__checkbox-list {
   display: flex;
-  align-items: center;
   gap: 15px;
+  margin-bottom: 7px;
 }
 
 .search-form__pseudo-checkbox {
